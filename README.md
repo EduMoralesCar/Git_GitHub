@@ -36,4 +36,4 @@ Si tienes algún comando, truco, o sugerencia que quieras agregar, ¡abre una is
 
 ---
 
-¿Tienes dudas o sugerencias? Puedes contactarme en mi[ perfil](https://github.com/EduMoralesCar) de GitHub.
+¿Tienes dudas o sugerencias? Puedes contactarme en mi perfil de [GitHub](https://github.com/EduMoralesCar).
