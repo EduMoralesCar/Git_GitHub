@@ -1,68 +1,50 @@
-
-## Ramas en Git
-
+# 🌿 Ramas en Git
 Las ramas permiten trabajar en diferentes versiones del proyecto de forma independiente.
 
-### Ver ramas existentes
-```bash
-git branch
-```
+# Ver ramas existentes
 Muestra todas las ramas locales. Para ver también las remotas:
+
 ```bash
-git branch -a
+git branch              # Muestra ramas locales
+git branch -a           # Muestra ramas locales y remotas
+git branch -r           # Muestra solo ramas remotas
+```
+# Crear una nueva rama
+```
+git branch nombre-rama  # Crea una rama local llamada 'nombre-rama'
+```
+# Cambiar de rama
+```
+git switch nombre-rama          # Cambia a una rama local
+git checkout nombre-rama        # Alternativa clásica para cambiar de rama
 ```
 
-### Crear una nueva rama
-```bash
-git branch nombre-rama
+# Cambiar a una rama remota que aún no existe localmente
 ```
-Crea una rama llamada `nombre-rama`.
-
-### Cambiar de rama
-Si la rama ya existe localmente:
-```bash
-git checkout nombre-rama
-```
-o con el comando clásico:
-```bash
-git checkout nombre-rama
-```
-Te mueve a la rama indicada. En versiones recientes de Git también puedes usar:
-```bash
-git switch nombre-rama
-```
-Si la rama solo existe en remoto (GitHub) y no en local:
-```bash
 git fetch origin
-git switch -c nombre-de-la-rama origin/nombre-de-la-rama
+git switch -c nombre-rama origin/nombre-rama
 ```
 
-### Fusionar ramas
-```bash
-git merge nombre-rama
+# Fusionar ramas
 ```
-Fusiona la rama `nombre-rama` en la rama actual.
-
-### Eliminar una rama
-```bash
-git branch -d nombre-rama
-```
-Elimina la rama local. Para eliminar una rama remota:
-```bash
-git push origin --delete nombre-rama
+git merge nombre-rama   # Fusiona 'nombre-rama' en la rama actual
 ```
 
-## Repositorio remoto
-
-```bash
-git remote -v             # Ver remotos
-git clone URL             # Clonar repositorio
-git push                  # Subir cambios
-git pull                  # Descargar cambios       
+# Eliminar ramas
+```
+git branch -d nombre-rama              # Elimina una rama local
+git push origin --delete nombre-rama   # Elimina una rama remota
 ```
 
-## Ayuda de comandos
+# 🌐 Repositorio remoto
+```
+git remote -v       # Ver remotos configurados
+git clone URL       # Clonar repositorio desde GitHub
+git push            # Subir cambios al remoto
+git pull            # Descargar y fusionar cambios del remoto
+```
 
-```bash
-git help
+# 🆘 Ayuda de comandos
+```
+git help            # Acceder a la documentación de Git
 ```
