@@ -47,6 +47,8 @@ o crea una copia en otra rama:
 git checkout -b backup-morales
 ```
 
+---
+
 # 🔹 Reutilizar con otras ramas
 Si más adelante quieres que morales-dev quede igual que otra rama (ej. macedo-dev), solo cambia el nombre en el paso 3:
 ```bash
