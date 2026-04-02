@@ -13,11 +13,7 @@ Esto traerá los cambios de `nombre-rama` a la rama donde estás.
 Si los mismos archivos fueron modificados en ambas ramas, Git te pedirá que resuelvas los conflictos manualmente. Los archivos en conflicto mostrarán marcas como:
 
 ```text
-<<<<<<< HEAD
-Cambios en tu rama actual
-=======
 Cambios en la rama que se fusiona
->>>>>>> nombre-rama
 ```
 Edita el archivo para dejar solo la versión que deseas, guarda y luego ejecuta:
 ```bash
