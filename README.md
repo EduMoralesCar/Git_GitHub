@@ -30,10 +30,4 @@ Este repositorio es una recopilación de los comandos más útiles y frecuentes 
 - **Scripts útiles**: Automatizaciones o alias para comandos frecuentes.
 - **Glosario de términos**: Definiciones rápidas de conceptos relacionados con Git y GitHub.
 
-## Cómo contribuir
-
-Si tienes algún comando, truco, o sugerencia que quieras agregar, ¡abre una issue o un pull request! Toda aportación es bienvenida para hacer de este repositorio una mejor referencia para la comunidad.
-
 ---
-
-¿Tienes dudas o sugerencias? Puedes contactarme en mi perfil de [GitHub](https://github.com/EduMoralesCar).
