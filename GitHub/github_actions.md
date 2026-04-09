@@ -1,13 +1,13 @@
-## GitHub Actions
+# GitHub Actions
 
-### ¿Qué es?
+## ¿Qué es?
 GitHub Actions permite automatizar tareas como pruebas, despliegues y más.
 
-### ¿Cómo crear un workflow?
+## ¿Cómo crear un workflow?
 1. Ve a la pestaña "Actions" y selecciona un template.
 2. Crea un archivo `.github/workflows/nombre.yml` con los pasos a seguir.
 
-### Ejemplo básico
+## Ejemplo básico
 ```yaml
 name: CI
 on: [push]
@@ -20,3 +20,7 @@ jobs:
         run: npm install
       - name: Ejecutar pruebas
         run: npm test
+```
+
+# Referencia
+**Link:**[https://youtu.be/xXde5PzV8X4?si=iKXZTwuWTmwN_HOE](https://youtu.be/xXde5PzV8X4?si=iKXZTwuWTmwN_HOE)
