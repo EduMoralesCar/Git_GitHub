@@ -61,6 +61,8 @@ git log -p
 git log --author="Nombre"
 ```
 
+---
+
 ### git reset
 
 git reset sirve para restablecer el index y, segun la opcion, el directorio de trabajo al estado indicado.
