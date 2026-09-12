@@ -26,3 +26,4 @@ Muestra el historial de movimientos y permite recuperar estados anteriores:
 ```bash
 git checkout hash_reflog
 ```
+---
